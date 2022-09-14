@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>home.work</groupId>
-  <artifactId>string-search</artifactId>
+  <artifactId>shapes-factory</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>string-search</name>
+  <name>shapes-factory</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
