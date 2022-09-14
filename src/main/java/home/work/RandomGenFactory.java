@@ -42,6 +42,9 @@ public class RandomGenFactory implements Factory{
         for(;number>0;number--)
         {
             String randomName = className.randomName().toString();
+            
+            // RandomGenFactory instance = new RandomGenFactory();
+            // Method m = RandomGenFactory.class.getDeclaredMethod("create" + randomName);
             Class<?> c = Class.forName("home.work.RandomGenFactory");
             RandomGenFactory instance = (RandomGenFactory) c.getDeclaredConstructor().newInstance();
             Method m = c.getDeclaredMethod("create" + randomName);

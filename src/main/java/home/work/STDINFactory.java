@@ -6,6 +6,10 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+
+// StdinFactory
+
+// FigureReader, FigureScanner, ...
 public class STDINFactory implements Factory{
     ArrayList<Figure> arr = new ArrayList<>();
     final Scanner scc;
